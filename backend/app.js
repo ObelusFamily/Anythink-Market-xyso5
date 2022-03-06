@@ -10,6 +10,10 @@ var http = require("http"),
   errorhandler = require("errorhandler"),
   mongoose = require("mongoose");
 
+// Add .env file with you local mongo credentials
+// install the backend and frontend folder using npm install from within the folders
+// use npm start to run them.
+
 var isProduction = process.env.NODE_ENV === "production";
 
 // Create global app object
